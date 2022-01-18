@@ -1,7 +1,7 @@
 # [rotateDisk](https://github.com/Holsey/rotateDisk) 
 中国汉族古音律学习辅助软件
 
-[img](https://imgconvert.csdnimg.cn/aHR0cDovL3Zpc3RhcnkuZ2l0ZWUuaW8vaW1nYmVkL2dpZmhvbWVfNDk2eDUxNS5naWY#pic_center)
+![img](https://imgconvert.csdnimg.cn/aHR0cDovL3Zpc3RhcnkuZ2l0ZWUuaW8vaW1nYmVkL2dpZmhvbWVfNDk2eDUxNS5naWY#pic_center)
 
 古琴音位
 
