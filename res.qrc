@@ -5,11 +5,11 @@
         <file>resource/3.png</file>
         <file>resource/4.png</file>
         <file>resource/5.png</file>
-        <file>resource/icon.png</file>
         <file>resource/6.png</file>
         <file>resource/7.png</file>
         <file>resource/8.png</file>
         <file>resource/9.png</file>
         <file>resource/10.png</file>
+        <file>resource/icon.png</file>
     </qresource>
 </RCC>

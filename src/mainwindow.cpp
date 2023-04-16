@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->setFixedSize(684, 684);
-    this->setWindowTitle("律盘 - 2.0.0");
+    this->setWindowTitle("律盘 - 2.0.1");
     setWindowIcon(QIcon(":/resource/icon.png"));
 
     ui->stackedWidget->setFixedSize(this->size());
@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
     });
 
     connect(aboutMenu, &QAction::triggered, [=](){
-        QString str("律盘 V2.0.0\n\r鼠标拖动旋转      \n\r --by 万俟淋曦        ");
+        QString str("律盘 V2.0.1\n\r鼠标拖动旋转      \n\r --by 万俟淋曦        ");
         QMessageBox::about(this, "关于", str);
     });
 

@@ -16,16 +16,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    disk.cpp \
-    main.cpp \
-    mainwindow.cpp
+    src/disk.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp
 
 HEADERS += \
-    disk.h \
-    mainwindow.h
+    src/disk.h \
+    src/mainwindow.h
 
 FORMS += \
-    mainwindow.ui
+    src/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -34,11 +34,17 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     res.qrc
-RC_FILE = icon.rc
+RC_FILE = src/icon.rc
 
 DISTFILES += \
-    resource/10.png \
+    resource/1.png \
+    resource/2.png \
+    resource/3.png \
+    resource/4.png \
+    resource/5.png \
     resource/6.png \
     resource/7.png \
     resource/8.png \
-    resource/9.png
+    resource/9.png \
+    resource/10.png \
+    resource/icon.png
