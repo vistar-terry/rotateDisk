@@ -75,7 +75,7 @@ void Disk::mouseMoveEvent(QMouseEvent *event){
 //    qDebug() << btnImg << "currentAngle" << currentAngle;
 
     if(rotateFlag){
-        QMatrix rotatematrix;
+        QTransform rotatematrix;
         rotatematrix.rotate(currentAngle); //通过角度创建旋转矩阵
         QPixmap fitpixmap = pix.transformed(rotatematrix,Qt::SmoothTransformation);//旋转
 
